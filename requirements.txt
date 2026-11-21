@@ -1,0 +1,10 @@
+# Playback: libVLC bindings. Also install the VLC desktop app itself
+# (https://www.videolan.org/vlc/), this package only talks to it.
+python-vlc>=3.0.20123
+
+# Speech recognition
+SpeechRecognition>=3.10
+PyAudio>=0.2.13
+
+# Optional: only if you set BACKEND = "vosk" in config.py for offline use.
+# vosk>=0.3.45
